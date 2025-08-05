@@ -10,8 +10,9 @@ This is a **Full Stack Web Application** built using **Spring Boot** (Java) for 
 - Java
 - Spring Boot
 - Spring Data JPA
-- MySQL
+- PostgreSQL (hosted on Neon.tech)
 - REST APIs
+-
 
 ### 🎨 Frontend
 - Angular
@@ -39,6 +40,7 @@ This is a **Full Stack Web Application** built using **Spring Boot** (Java) for 
 - Handle user input and display data dynamically
 
 ---
+
 
 ## 🗂️ Project Structure
 
