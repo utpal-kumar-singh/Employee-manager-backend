@@ -19,13 +19,6 @@ public class EmployeeResource {
         this.employeeService = employeeService;
     }
 
-    @GetMapping("/api/test")
-    public ResponseEntity<String> test() {
-        Process log = null;
-//        log.info("");
-        return ResponseEntity.ok("Backend is reachable");
-    }
-
     @GetMapping("/all")
     public ResponseEntity<List<Employee>> getAllEmployees() {
         List<Employee> employees = employeeService.findAllEmployees();
