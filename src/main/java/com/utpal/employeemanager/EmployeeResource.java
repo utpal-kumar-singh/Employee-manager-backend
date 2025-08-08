@@ -19,6 +19,11 @@ public class EmployeeResource {
     public EmployeeResource(EmployeeService employeeService) {
         this.employeeService = employeeService;
     }
+    @GetMapping("/test")
+    public ResponseEntity<String> test() {
+        return ResponseEntity.ok("Backend is running!");
+    }
+
 
     @GetMapping("/all")
     public ResponseEntity<List<Employee>> getAllEmployees() {
