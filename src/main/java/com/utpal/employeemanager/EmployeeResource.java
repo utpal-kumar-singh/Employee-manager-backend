@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://utpalsingh.github.io")
+@CrossOrigin(origins = "https://utpal-kumar-singh.github.io")
 
 @RestController
 @RequestMapping("/employee")
