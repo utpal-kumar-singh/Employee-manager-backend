@@ -13,16 +13,4 @@ public class EmployeemanagerApplication {
 		SpringApplication.run(EmployeemanagerApplication.class, args);
 	}
 
-//    @Bean
-//    public WebMvcConfigurer corsConfigurer() {
-//        return new WebMvcConfigurer() {
-//            @Override
-//            public void addCorsMappings(CorsRegistry registry) {
-//                registry.addMapping("/**")
-//                        .allowedOrigins("https://utpal-kumar-singh.github.io") // replace with your exact GitHub Pages URL
-//                        .allowedMethods("*")
-//                        .allowedHeaders("*");
-//            }
-//        };
-//    }
 }
